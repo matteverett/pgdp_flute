@@ -16,11 +16,11 @@ _The fairy flute_ by Rose Fyleman
 Our first set of activities will combine all proofed and formatted pages, fixing any errors and inconsistencies.
 
 ### Create Project
-* [ ] Choose a project name
+* [x] Choose a project name
   * Choose a short, simple project name, e.g. `pascal` for “*The Provincial Letters of Blaise Pascal*”
   * Should be simple, no spaces, lowercase, e.g. "missfairfax" was used for "Miss Fairfax of Virginia".
   * This is used by scripts and to name the GitHub repo, so use it consistently.
-* [ ] Run the setup script
+* [x] Run the setup script
   * ```shell
     cd ~/dp/util
     . venv/bin/activate
@@ -29,53 +29,64 @@ Our first set of activities will combine all proofed and formatted pages, fixing
   * Setup script fetches the project resources and creates the Github repository
 
 ### Review Project Details
-* [ ] Read the project comments
-* [ ] Subscribe to the project forum
-* [ ] Read all forum posts
+* [x] Read the project comments
+* [x] Subscribe to the project forum
+* [x] Read all forum posts
 
 ### Setup Guiguts and Pixea
-* [ ] Open `flute-src.txt` in Guiguts
-* [ ] Configure page labels
+* [x] Open `flute-src.txt` in Guiguts
+* [x] Open images in Pixea: `open -a Pixea pngs`
+* [x] Configure page labels
   * `File → Project → Configure Page Labels...`
-* [ ] Check for roman numerals and unnumbered pages
-* [ ] Go to end of book to check page numbers line up
-* [ ] Open images in Pixea: `open -a Pixea pngs`
+* [x] Check for roman numerals and unnumbered pages
+* [x] Go to end of book to check page numbers line up
 
-### Initial Inspection
-Check for:
+### Basic Fixup
+* [x] Use `Tools → Basic Fixup` with all options checked.
+* [x] Remove end-of-line spaces
+  * Regex: ` \n`
 
+### Errata
+* [x] If original book had errata, apply it and note in TN
+
+### Check Formatting
 * Proper spacing for chapters and paragraphs
-  * [ ] Before chapter start: 4 blank lines
-  * [ ] Between chapter head and subhead: 1 blank line
-  * [ ] Between head (or subhead) and chapter body: 2 blank lines
-  * [ ] Pages should **not** start with a blank line unless starting a new chapter, section, or paragraph.
+  * [x] Before chapter start: 4 blank lines
+  * [x] Between chapter head and subhead: 1 blank line
+  * [x] Between head (or subhead) and chapter body: 2 blank lines
+  * [x] Pages should **not** start with a blank line unless starting a new chapter, section, or paragraph.
+  * [x] Each overall block should have blank lines before & after
 
-* [ ] Proper markup of `<i>italic</i>` and `<b>bold</b>`.
+* [x] Proper markup of `<i>italic</i>` and `<b>bold</b>`.
   * Watch for punctuation wrongly contained in markup, such as `<i>(ibid.</i>` or `<b>Subtopic.</b>`.
 
-* [ ] Proper markup of Greek and other transliterations
+* Proper markup of foreign languages:
+  * [x] Greek and other transliterations
+  * [x] Note languages other than the main book language in `README.md`
+    * In HTML they can be labeled with `<span lang="fr">..</span>`
+    * If they're in italic print, that's handled later during italic handling
 
-* [ ] Languages other than the main book language can be noted for later
-  * In HTML they can be labeled with `<span lang="fr">..</span>`
-  * If they're in italic print, that's handled later during italic handling
+* Proper markup of all block material:
+  * [x] Poetry, misc. tabular in `/* */`
+  * [x] Block quotes in `/# #/`
 
-* Block material all marked in some fashion:
-  * [ ] Poetry, misc. tabular in `/* */`
-  * [ ] Block quotes in `/# #/`
-  * [ ] Where blocks cross page boundary, remove the extra markers around page marker
-  * [ ] Each overall block should have blank lines before & after
+* Proper markup of illustrations:
+  * [x] Figures properly marked as `[Illustration: caption]`
+  * [x] For captionless (`[Illustration: ]`), remove colon & whitespace
+  * [x] Caption text agrees with List of Illustrations (if any)
+  * [x] Consistent spelling, abbreviation, capitalization in captions
+  * [x] Note illustrations in `README.md`
+  * [x] Move illustrations to `illustrations/` folder
 
-* [ ] Join words hyphenated across page boundary
+### Fixup Page Formatting
+* [x] Remove the extra block markers around page boundaries
+* [x] Join words hyphenated across page boundary
+* Handle blank pages:
+  * [x] Check that `[Blank Page]` are blank
+  * [x] Remove blank pages
 
-* Figures properaly marked:
-  * [ ] Figures properly in `[Illustration: caption]`
-  * [ ] Check that caption text agrees with List of Illustrations (if any)
-  * [ ] Consistent spelling, abbreviation, capitalization in captions
-  * [ ] For captionless (`[Illustration: ]`), remove colon & whitespace
-  * [ ] Note any illustrations in a list in `README.md` for later handling
-  * [ ] Move illustrations to `illustrations/` folder
 
-* [ ] Fix Footnotes, Illustrations still inside a paragraph
+* [x] Fix Footnotes, Illustrations still inside a paragraph
   * Move outside paragraph to next or prior page, as appropriate
   * Don't worry about duplicate footnote numbers/symbols for now
   * Sidenotes are handled later
@@ -84,19 +95,6 @@ Check for:
   * [ ] Author cross-references like "`(p. 150)`" and "`see page 222`" that should become links.
   * [ ] How the editor laid out special sections such as tables and sidebars.
   * [ ] Any
-
-* Handle blank pages:
-  * Check that `[Blank Page]` are blank pages
-  * Remove blank pages
-
-### Basic Fixup
-* [ ] Use `Tools → Basic Fixup` with all options checked.
-  * Use it judiciously. E.g., you may want to turn off "Fix up spaces around hyphens" and "Format ellipses correctly."
-
-* [ ] `Tools → Remove End-of-line Spaces`
-
-### Errata
-* [ ] If original book had errata, apply it and note in TN
 
 ### Fix Block Markups and Proofer Notes
 * [ ] Use the `Search` menu to step through all `/* */` blocks.

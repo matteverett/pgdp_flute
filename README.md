@@ -39,6 +39,15 @@ This is a short book of poems with no images, other than the cover. It hasn't be
 ### Illustrations ###
 
 ### Proofer's notes ###
+* p. 025
+  * [**possible stanz break acros page?]
+  * Inserted stanza break before "But ere the morning" per Google Books search
+* p. 051
+  * [**P3 punc. unclear]
+  * Used period after "You'll make her very vain."
+* p. 062
+  * [**markup necessary?]
+  * Markup removed from final documents
 
 ### Joined hyphenated words ###
 

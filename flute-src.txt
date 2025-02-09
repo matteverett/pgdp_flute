@@ -397,7 +397,8 @@ Till all the lake is alight and alive,
 And glows with a tremulous sparkling sheen
 Like the jewelled robe of an Eastern queen.
 -----File: 025.png---------------------------------------------------------
-[**possible stanz break acros page?]But ere the morning has well begun
+
+But ere the morning has well begun
 They all come leaping forth to the sun.
 They hang for a shimmering moment there
 Shaking their curls in the warm bright air,
@@ -864,7 +865,7 @@ I like to hear the people say:
 "How pretty Nancy looks to-day!"
 
 But Daddy shakes his head and says:
-"You'll make her very vain.[**P3 punc. unclear]"
+"You'll make her very vain."
 And Grannie says: "She should be dressed
 In everything that's of the best
 But rather neat and plain."
@@ -1057,7 +1058,7 @@ Since they from grateful hearts can only sing you
 
 
 
-/#[**markup necessary?]
+/#
 The author's best thanks are due to the Editor and
 Proprietors of <i>Punch</i>, through whose courtesy she
 is able to include in this collection a number of

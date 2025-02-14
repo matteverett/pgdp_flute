@@ -50,10 +50,13 @@ This is a short book of poems with no images, other than the cover. It hasn't be
   * Markup removed from final documents
 
 ### Joined hyphenated words ###
+* moonlit vs moon-lit
 
 ### Spellcheck ###
 
 ### Transcriber's notes ###
+* p. 054: light... vs light ...
+* pp. 044, 049: ";
 
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 

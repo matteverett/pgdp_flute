@@ -43,21 +43,20 @@ Our first set of activities will combine all proofed and formatted pages, fixing
 
 ### Basic Fixup
 * [x] Use `Tools → Basic Fixup` with all options checked.
-* [x] Remove end-of-line spaces
-  * Regex: ` \n`
+* [x] Remove end-of-line spaces (Regex: ` \n`)
 
 ### Errata
 * [x] If original book had errata, apply it and note in TN
 
 ### Check Formatting
-* Proper spacing for chapters and paragraphs
+* Proper spacing for chapters and paragraphs:
   * [x] Before chapter start: 4 blank lines
   * [x] Between chapter head and subhead: 1 blank line
   * [x] Between head (or subhead) and chapter body: 2 blank lines
   * [x] Pages should **not** start with a blank line unless starting a new chapter, section, or paragraph.
   * [x] Each overall block should have blank lines before & after
 
-* [x] Proper markup of `<i>italic</i>` and `<b>bold</b>`.
+* [x] Proper markup of `<i>italic</i>` and `<b>bold</b>`
   * Watch for punctuation wrongly contained in markup, such as `<i>(ibid.</i>` or `<b>Subtopic.</b>`.
 
 * Proper markup of foreign languages:
@@ -92,19 +91,19 @@ Our first set of activities will combine all proofed and formatted pages, fixing
   * Sidenotes are handled later
 
 * Make notes of things that will need attention in the HTML:
-  * [ ] Author cross-references like "`(p. 150)`" and "`see page 222`" that should become links.
-  * [ ] How the editor laid out special sections such as tables and sidebars.
-  * [ ] Any
+  * [x] Author cross-references like "`(p. 150)`" and "`see page 222`" that should become links.
+  * [x] How the editor laid out special sections such as tables and sidebars.
+  * [x] Any
 
 ### Fix Block Markups and Proofer Notes
-* [ ] Use the `Search` menu to step through all `/* */` blocks.
+* [x] Use the `Search` menu to step through all `/* */` blocks.
   * Regex: `^(/\*|\*/)`
   * Check for a blank line before and after markup
   * Make sure correct [Rewrap Markers](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) are used
   * Close-up where broken at page boundaries, if not already done
   * Apply specific [indent value](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Table_Indent) if desired
   * Make sure poetry line numbers are at least two spaces to the right of the line.
-* [ ] Use the `Search` menu to step through all `/#..#/` blocks.
+* [x] Use the `Search` menu to step through all `/#..#/` blocks.
   * Regex: `^(/#|#/)`
   * Check for a blank line before and after markup
   * Make sure correct [Rewrap Markers](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) are used
@@ -112,76 +111,76 @@ Our first set of activities will combine all proofed and formatted pages, fixing
   * Check consistent indentation of block text
   * Apply specific [margin values](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Block_Quote_Indent_and_Margins) if desired
 * [x] `Search → Find Next Proofer Comment`. Resolve all proofer's notes.
-* [ ] `Search → Find Orphaned DP Markup`.
-* [ ] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
-* [ ] Use `Tools → Check Orphaned Brackets` to check each type of bracket and markup.
+* [x] `Search → Find Orphaned DP Markup`.
+* [x] Search `(</i>)([!?;:])` & replace `$2$1` to find punct that should move inside quotes
+* [x] Use `Tools → Check Orphaned Brackets` to check each type of bracket and markup.
   * Do not omit the lowly parenthesis, often mis-scanned as curly-brace.
-* [ ] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
+* [x] Look for malformed thought-breaks (5 stars). Regex: `\*\s*\*\s*\*\s*\*\s*\*`
 
 ### Format Front Matter
-* [ ] Format the title page, preserving as much of the original material as possible. Protect in `/X...X/` (no rewrap, no indent) or `/F...F/` (the same, except that it will be centered in the html version).
-* [ ] Edit the TOC. Find each matching chapter head; make sure heads are 1:1 with TOC. Protect TOC with `/X...X/`. Note that your TOC will probably need to be indented to prevent rewrapping, particularly if you use multiple spaces to align page numbers.
-* [ ] If book has illustrations, edit or create *List of Illustrations* (**Note:** this is not a requirement). Make sure it is 1:1 with `[Illustration]` captions. Protect with `/X...X/`.
+* [x] Format the title page, preserving as much of the original material as possible. Protect in `/X...X/` (no rewrap, no indent) or `/F...F/` (the same, except that it will be centered in the html version).
+* [x] Edit the TOC. Find each matching chapter head; make sure heads are 1:1 with TOC. Protect TOC with `/X...X/`. Note that your TOC will probably need to be indented to prevent rewrapping, particularly if you use multiple spaces to align page numbers.
+* [x] If book has illustrations, edit or create *List of Illustrations* (**Note:** this is not a requirement). Make sure it is 1:1 with `[Illustration]` captions. Protect with `/X...X/`.
 
 ### Edit Transliterations
-* [ ] Use `Tools → Character Tools` to search for transliterations. Check the content of each transliteration. For Greek, there's a "Greek Transliteration Tool", but entering Unicode Greek is preferable.
+* [x] Use `Tools → Character Tools` to search for transliterations. Check the content of each transliteration. For Greek, there's a "Greek Transliteration Tool", but entering Unicode Greek is preferable.
 
 ### Remove Visible Page Breaks
-* [ ] Run `Tools → Fixup Page Separators` to remove visible page separators
+* [x] Run `Tools → Fixup Page Separators` to remove visible page separators
 
 ### Apply Word-Frequency Checks
-* [ ] Open `Tools → Word Frequency`. Double click on a word to search for it.
-* [ ] Set the `Frq` switch; click `All Words`. List is now sorted by word frequency; scroll to the end and skim up the list of words that only appear 1 time looking for oddities and obvious misspellings.
-* [ ] Click `Character Cnts`.
+* [x] Open `Tools → Word Frequency`. Double click on a word to search for it.
+* [x] Set the `Frq` switch; click `All Words`. List is now sorted by word frequency; scroll to the end and skim up the list of words that only appear 1 time looking for oddities and obvious misspellings.
+* [x] Click `Character Cnts`.
   * Note characters that appear only once, check usage.
   * Check for equal counts of left & right parens and brackets.
-* [ ] Set the `Alph` switch; click `All Words`. Scroll to the word Footnote and write down count for later use. (If the count is large, click once on Footnote and click 1st Harm. The harmonic window shows you any of the common misspellings of "Footnote" that occur.)
-* [ ] Click `Emdashes`. This shows words with emdashes in them as well as similar words without emdashes (aka: suspects) marked with `****`. Check suspects against the text and page images. Preserve author's intent even when inconsistent. **Hint**: Enable the `Suspects` flag and click `Emdashes` again to see only suspects words.
-* [ ] Click `Hyphens`. Same as Emdashes above but for Hyphens.
-* [ ] Click `Alpha/num`. Scan list for `one/ell` and `oh/zero` errors.
-* [ ] Click `ALL CAPS`. Scan list looking for oddities.
-* [ ] Click `MiXeD CasE`. Scan list looking for letters such as o that sometimes OCR wrongly as uppercase. `Oh/zero` errors can show up here, too.
-* [ ] Click `Check Accents`. Scan list looking for mistakes, inconsistent usages.
-* [ ] Click `Check , Upper`. Scan list for comma-for-period errors.
-* [ ] Click `Check . Lower`. Scan list for period-for-comma errors.
-* [ ] Click `Ital/Bold/SC`. Scan list for incorrect or inconsistent use of italics, bold face, and small caps.
-* [ ] Click `Ligatures`. Scan list for [incorrect or inconsistent use](https://www.pgdp.net/wiki/Æ_and_œ_ligatures) of `ae` and `oe` ligatures.
+* [x] Set the `Alph` switch; click `All Words`. Scroll to the word Footnote and write down count for later use. (If the count is large, click once on Footnote and click 1st Harm. The harmonic window shows you any of the common misspellings of "Footnote" that occur.)
+* [x] Click `Emdashes`. This shows words with emdashes in them as well as similar words without emdashes (aka: suspects) marked with `****`. Check suspects against the text and page images. Preserve author's intent even when inconsistent. **Hint**: Enable the `Suspects` flag and click `Emdashes` again to see only suspects words.
+* [x] Click `Hyphens`. Same as Emdashes above but for Hyphens.
+* [x] Click `Alpha/num`. Scan list for `one/ell` and `oh/zero` errors.
+* [x] Click `ALL CAPS`. Scan list looking for oddities.
+* [x] Click `MiXeD CasE`. Scan list looking for letters such as o that sometimes OCR wrongly as uppercase. `Oh/zero` errors can show up here, too.
+* [x] Click `Check Accents`. Scan list looking for mistakes, inconsistent usages.
+* [x] Click `Check , Upper`. Scan list for comma-for-period errors.
+* [x] Click `Check . Lower`. Scan list for period-for-comma errors.
+* [x] Click `Ital/Bold/SC`. Scan list for incorrect or inconsistent use of italics, bold face, and small caps.
+* [x] Click `Ligatures`. Scan list for [incorrect or inconsistent use](https://www.pgdp.net/wiki/Æ_and_œ_ligatures) of `ae` and `oe` ligatures.
 ```text
 æ Æ    <Opt> '    /ai/ to rhyme with “eye”.
 œ Œ    <Opt> q    /ɔɪ/ to rhyme with “oi” in “foil”
 <shift> for capital letter
 ```
-* [ ] Look for missed ligature / diacritical transliterations. Regex: `\[[^*]`
+* [x] Look for missed ligature / diacritical transliterations. Regex: `\[[^*]`
 
 ### Apply Scanno Checks
-* [ ] Use `Tools → Stealth Scannos` with `Auto Advance`.
-  * [ ] Start scanno searching based on `en-commn.rc`. Work through the list.
-  * [ ] Apply scanno searching based on `misspelled.rc`. Work through the list.
-  * [ ] Apply scanno searching based on `regex.rc`. Work through the list.
-* [ ] `Tools → Run Jeebies`. Examine its report of possible `he/be` errors.
+* [x] Use `Tools → Stealth Scannos` with `Auto Advance`.
+  * [x] Start scanno searching based on `en-commn.rc`. Work through the list.
+  * [x] Apply scanno searching based on `misspelled.rc`. Work through the list.
+  * [x] Apply scanno searching based on `regex.rc`. Work through the list.
+* [x] `Tools → Run Jeebies`. Examine its report of possible `he/be` errors.
 
 ### Misc checks
-* [ ] Check for chapter/section spacing. Regex: `\n\n\n`
-* [ ] Check spaces around hyphens. Regex: `(\s+-|-\s+)`
-* [ ] Check spaces before punctuation. Regex: `\s+[.!?;:,]`
-* [ ] Check spaces around quotes. Regex: `(\s+['"][^\s]|[^\s]['"]\s+)`
-* [ ] Check spaces around brackets. Regex: `(\s+[({[\]})]|[({[\]})]\s+)`
-* [ ] Search regex `(Dr|M(me|lle|essrs|rs?)|St|Fr|Rev)\s` and add missing period if needed
-* [ ] Check `A.M.`, `P.M.` and similar for spacing to match book - regex: `[AP]\.\s*M\.`
+* [x] Check for chapter/section spacing. Regex: `\n\n\n`
+* [x] Check spaces around hyphens. Regex: `(\s+-|-\s+)`
+* [x] Check spaces before punctuation. Regex: `\s+[.!?;:,]`
+* [x] Check spaces around quotes. Regex: `(\s+['"][^\s]|[^\s]['"]\s+)`
+* [x] Check spaces around brackets. Regex: `(\s+[({[\]})]|[({[\]})]\s+)`
+* [x] Search regex `(Dr|M(me|lle|essrs|rs?)|St|Fr|Rev)\s` and add missing period if needed
+* [x] Check `A.M.`, `P.M.` and similar for spacing to match book - regex: `[AP]\.\s*M\.`
   * Note these to do `&nbsp;` in HTML, to avoid line wrap mid-abbreviation
-* [ ] Does book use small-caps A.D. B.C.?
+* [x] Does book use small-caps A.D. B.C.?
   * Search `[A-Z]\.\s*[A-Z]\.`, add `<sc>` and note for `&nbsp;` if needed
-* [ ] Check for multiple consecutive spaces which are not in a no-wrap block
-* [ ] Look at `<tb>` and look for improper uses
-* [ ] Check all ellipses. Regex: `\.\.\.`
-* [ ] Check for 3 dashes (not either 2 or 4). Regex: `[^-]---[^-]`
-* [ ] Look for spaces around em- or long-dash. Regex: `\s+--(--)?\s+`
-* [ ] Check adjacent letters and numbers. Regex: `([0-9][A-Za-z]|[A-Za-z][0-9])`
-* [ ] Superscripts (search `^` without regex). Can use `^` or `^{th}` form
+* [x] Check for multiple consecutive spaces which are not in a no-wrap block
+* [x] Look at `<tb>` and look for improper uses
+* [x] Check all ellipses. Regex: `\.\.\.`
+* [x] Check for 3 dashes (not either 2 or 4). Regex: `[^-]---[^-]`
+* [x] Look for spaces around em- or long-dash. Regex: `\s+--(--)?\s+`
+* [x] Check adjacent letters and numbers. Regex: `([0-9][A-Za-z]|[A-Za-z][0-9])`
+* [x] Superscripts (search `^` without regex). Can use `^` or `^{th}` form
   * Add TN to text version about this superscript notation
 
 ### Apply Bookloupe
-* [ ] If you have Bookloupe installed, use `Tools → Bookloupe`.
+* [x] If you have Bookloupe installed, use `Tools → Bookloupe`.
   * Forward slash
   * HTML tag
   * No CR
@@ -191,39 +190,39 @@ Our first set of activities will combine all proofed and formatted pages, fixing
 * Work through the list, correcting as appropriate.
 
 ### Apply Spellcheck
-* [ ] Use `Tools → Spell Query`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+* [x] Use `Tools → Spell Query`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
 
 ### Fix Sidenotes
-* [ ] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
+* [x] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
   * Compare to page image. Move note above paragraph if feasible.
   * Otherwise, position it above the sentence to which it applies, with blank lines to prevent rewrapping if you decide that is best.
 
 ### Fix Footnotes
-* [ ] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
+* [x] Use `Tools → Footnote Fixup`. This will help you validate and move any footnotes.
   * `First Pass`
   * `Next / Prev FN` to navigate
   * Look for `*` and use `Join with Previous` to join them
   * THERE SHOULD BE NO ERRORS AT TOP OF WINDOW
     * Exception: sometimes a footnote is really long (brown)
     * Exception: multiple anchors per footnote can confuse it (teal)
-* [ ] Move footnotes between paragraphs
+* [x] Move footnotes between paragraphs
   * `Footnote Fixup`, `First Pass`
   * `All to Number`, `Reindex`
   * `First Pass`, `Move FNs to Para`
-* [ ] Save file, `Tools → Bookloupe` and check only `No punctuation at para end`
+* [x] Save file, `Tools → Bookloupe` and check only `No punctuation at para end`
   * Run checks, find para and error, move footnotes as needed
 
 ### Fix Poetry Line Numbers
-* [ ] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
+* [x] If the book has poetry that uses line numbers, read [this page](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Poetry_Line_Numbers) and align the line numbers consistently.
 
 ### Check balanced markup
 Use the `Search` menu:
 
-* [ ] `Search → Find Orphaned Markup` (which searches for the regular expression `\<(\w+)>\n?[^<]+<(?!/\1>)`, that is any markup starting in `<..>` that doesn't end in an identical closing markup.
+* [x] `Search → Find Orphaned Markup` (which searches for the regular expression `\<(\w+)>\n?[^<]+<(?!/\1>)`, that is any markup starting in `<..>` that doesn't end in an identical closing markup.
   * Note: this regular expression sees `<tb>` as unbalanced, and shows the text from the `<tb>` to the next markup as an error. (If you can devise a better regex please do!)
   * Possible alternate that explicitly lists all current markup `\<(i|b|sc|g||f|u)>\n?[^<]+<(?!/\1>)`
   * Because it includes a newline, the search may take several seconds to return the first result.
-* [ ] Correct the error and click search until no more are found.
+* [x] Correct the error and click search until no more are found.
 
 ### Consider page numbers and curly quotes
 * [ ] Curly quotes are [recommended](https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=73290) in both the text and HTML versions. Now is the time to put them in, before the split. Select `Txt → Convert to Curly Quotes`.

@@ -225,12 +225,12 @@ Use the `Search` menu:
 * [x] Correct the error and click search until no more are found.
 
 ### Consider page numbers and curly quotes
-* [ ] Curly quotes are [recommended](https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=73290) in both the text and HTML versions. Now is the time to put them in, before the split. Select `Txt → Convert to Curly Quotes`.
+* [x] Curly quotes are [recommended](https://www.pgdp.net/phpBB3/viewtopic.php?f=3&t=73290) in both the text and HTML versions. Now is the time to put them in, before the split. Select `Txt → Convert to Curly Quotes`.
   * There are fixup menu items too
-* [ ] Search for remaining upright single quotation marks and replace them with either a ‘ or a ’.
-* [ ] Check for lingering straight quotes: `['"]`
-* [ ] `Txt → Curly Quote Corrections → Select Next @ Line` and handle each occurrence
-* [ ] Validate quotes pairings by searching for `[“”‘’]`
+* [x] Search for remaining upright single quotation marks and replace them with either a ‘ or a ’.
+* [x] Check for lingering straight quotes: `['"]`
+* [x] `Txt → Curly Quote Corrections → Select Next @ Line` and handle each occurrence
+* [x] Validate quotes pairings by searching for `[“”‘’]`
 
 ### Unicode dashes
 

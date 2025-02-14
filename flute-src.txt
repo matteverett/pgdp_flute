@@ -29,7 +29,7 @@ BY
 
 ROSE FYLEMAN
 
-AUTHOR OF "FAIRIES AND CHIMNEYS"
+AUTHOR OF “FAIRIES AND CHIMNEYS”
 
 SECOND EDITION
 
@@ -144,11 +144,11 @@ CONSOLATION
 
 /*
 You may be very ugly and freckledy and small
-And have a little stubby nose that's not a nose at all;
+And have a little stubby nose that’s not a nose at all;
 You may be bad at spelling and you may be worse at sums,
 You may have stupid fingers that your Nanna says are thumbs,
 And lots of things you look for you may never, never find,
-But if you love the fairies--you don't mind.
+But if you love the fairies--you don’t mind.
 
 You may be rather frightened when you read of wolves and bears
 Or when you pass the cupboard-place beneath the attic stairs;
@@ -156,7 +156,7 @@ Or when you pass the cupboard-place beneath the attic stairs;
 You may not always like it when thunder makes a noise
 That seems so much, much bigger than little girls and boys;
 You may feel rather lonely when you waken in the night,
-But if the fairies love you--<i>it's all right</i>.
+But if the fairies love you--<i>it’s all right</i>.
 */
 -----File: 011.png---------------------------------------------------------
 
@@ -168,13 +168,13 @@ IF YOU MEET A FAIRY
 
 /*
 If you meet a fairy
-Don't run away;
-She won't want to hurt you,
-She'll only want to play.
+Don’t run away;
+She won’t want to hurt you,
+She’ll only want to play.
 
 Show her round the garden,
 Round the house too,
-She'll want to see the kitchen
+She’ll want to see the kitchen
 (I know they always do).
 
 Find a tiny present
@@ -201,7 +201,7 @@ And rather ugly too.
 If you meet a fairy
 Remember what I say,
 Talk to her nicely
-And don't run away.
+And don’t run away.
 */
 -----File: 013.png---------------------------------------------------------
 
@@ -214,7 +214,7 @@ FAIRY LORE
 /*
 Fairies learn to dance before they learn to walk;
 Fairies learn to sing before they learn to talk;
-Fairies learn their counting from the cuckoo's call;
+Fairies learn their counting from the cuckoo’s call;
     They do not learn Geography at all.
 
 Fairies go a-riding with witches on their brooms
@@ -225,7 +225,7 @@ Fairies like a sky-dance better than a feast;
 
 Fairies think the rain as pretty as the sun;
 Fairies think that trespass-boards are only made for fun;
-Fairies think that peppermint's the nicest thing they know;
+Fairies think that peppermint’s the nicest thing they know;
     I <i>always</i> take a packet when I go.
 */
 -----File: 015.png---------------------------------------------------------
@@ -306,13 +306,13 @@ THE FAIRY TAILOR
 
 /*
 Sitting on the flower-bed beneath the hollyhocks
-I spied the tiny tailor who makes the fairies' frocks;
+I spied the tiny tailor who makes the fairies’ frocks;
 There he sat a-stitching all the afternoon
 And sang a little ditty to a quaint wee tune:
-  "Grey for the goblins, blue for the elves,
+  “Grey for the goblins, blue for the elves,
   Brown for the little gnomes that live by themselves,
   White for the pixies that dance upon the green--
-  But where shall I find me a robe for the Queen?"
+  But where shall I find me a robe for the Queen?”
 
 All about the garden his little men he sent,
 Up and down and in and out unceasingly they went.
@@ -328,11 +328,11 @@ Never roving pirates back from Southern seas
 Brought a store of treasures home beautiful as these.
 They heaped them all about him in a sweet gay pile,
 But still he kept a-stitching and a-singing all the while:
-  "Grey for the goblins, blue for the elves,
+  “Grey for the goblins, blue for the elves,
   Brown for the little gnomes that live by themselves,
 -----File: 021.png---------------------------------------------------------
   White for the pixies that dance on the green,
-  But who shall make a royal gown to deck the Fairy Queen?"
+  But who shall make a royal gown to deck the Fairy Queen?”
 */
 -----File: 022.png---------------------------------------------------------
 
@@ -432,7 +432,7 @@ Waiting the double-sweet delight that only he can give--
 (Oh, kings might surely spurn their crowns to live as fairies live).
 -----File: 027.png---------------------------------------------------------
 
-To ride upon a skylark's back between his happy wings,
+To ride upon a skylark’s back between his happy wings,
 To float upon the edge of heaven and listen while he sings--
 The dreams of mortals scarce can touch so perfected a bliss,
 And even fairies could not know a greater joy than this.
@@ -477,7 +477,7 @@ TIMOTHY
 
 /*
 My cat Timothy who has such lovely eyes
-Is really not a cat at all; it's only a disguise.
+Is really not a cat at all; it’s only a disguise.
 A witch cast a spell on him a long time since
 And changed him to a pussy-cat; but once he was a Prince.
 
@@ -493,7 +493,7 @@ And the fairies stop capering to curtsey as they pass.
 -----File: 030.png---------------------------------------------------------
 
 Some day, some day when the spell is done
-He will be a Prince again. <i>Won't</i> that be fun?
+He will be a Prince again. <i>Won’t</i> that be fun?
 He will come to seek me and kiss my lily hand
 And take me on his foaming steed to reign in fairyland.
 */
@@ -548,7 +548,7 @@ He used to be a fairy once,
   A little singing fairy;
 He would not work, he would not play,
 He only sat and sang all day--
-  So now he's a canary.
+  So now he’s a canary.
 
 They sent him out of fairyland,
   They sent him here to me
@@ -556,10 +556,10 @@ The day that I was six years old;
 His little house of shining gold
   Hangs in the nursery.
 
-He's taught me lots of lovely things
+He’s taught me lots of lovely things
   I never should have guessed;
-He's told me what they say and do
-(They all have wings--it's really true)
+He’s told me what they say and do
+(They all have wings--it’s really true)
   And how the Queen is dressed.
 -----File: 034.png---------------------------------------------------------
 
@@ -567,7 +567,7 @@ He flits about the house at night
   A little lonely fairy;
 But nobody is there to see,
 And no one knows--excepting me--
-  He's not a real canary.
+  He’s not a real canary.
 */
 -----File: 035.png---------------------------------------------------------
 
@@ -592,7 +592,7 @@ If bogles ever bother you.
 The flowers peeped from hedgy places
 And shook the raindrops from their faces,
 And furry creatures all the way
-Came popping out and said "Good-day."
+Came popping out and said “Good-day.”
 But when we reached the little bend,
 Just where the village houses end,
 -----File: 036.png---------------------------------------------------------
@@ -615,7 +615,7 @@ They all stand round in a shining ring
 On quiet nights when the moon is high,
 And lift their faces up to the sky.
 They read the music out of the stars,
-There aren't any notes and there aren't any bars.
+There aren’t any notes and there aren’t any bars.
 And sweet their song as the clover flower,
 And soft it is as a summer shower,
 And gay as leaves that the June airs shake,
@@ -631,9 +631,9 @@ Now in the air and now on the ground,
 In a shimmering, glimmering moon-lit maze
 To a wonderful music that nobody plays.
 And swift their dance as the coming of spring,
-And light as the touch of a butterfly's wing,
+And light as the touch of a butterfly’s wing,
 And strange as the gleams in a stormy sky
-And changing-bright as the peacock's dye.
+And changing-bright as the peacock’s dye.
 Oh, lucky are you if you get the chance
 To learn the way that the fairies dance.
 */
@@ -646,20 +646,20 @@ THE FAIRY BALL
 
 
 /*
-"I am asked to the ball to-night, to-night;
-What shall I wear, for I must look right?"
-"Search in the fields for a lady-smock;
-Where could you find you a prettier frock?"
+“I am asked to the ball to-night, to-night;
+What shall I wear, for I must look right?”
+“Search in the fields for a lady-smock;
+Where could you find you a prettier frock?”
 
-"I am asked to the ball to-night, to-night;
-What shall I do for my jewels bright?"
-"Trouble you not for a brooch or a ring,
-A daisy-chain is the properest thing."
+“I am asked to the ball to-night, to-night;
+What shall I do for my jewels bright?”
+“Trouble you not for a brooch or a ring,
+A daisy-chain is the properest thing.”
 
-"I am asked to the ball to-night, to-night;
-What shall I do if I shake with fright?"
-"When you are there you will understand
-That no one is frightened in Fairyland."
+“I am asked to the ball to-night, to-night;
+What shall I do if I shake with fright?”
+“When you are there you will understand
+That no one is frightened in Fairyland.”
 */
 -----File: 040.png---------------------------------------------------------
 
@@ -745,21 +745,21 @@ Watching her strange little bubbling pot.
 
 The gobliny dwarf that lives on the hill
 He lies in the heather so still, so still.
-But on big dark nights when there isn't a moon
+But on big dark nights when there isn’t a moon
 He puts on his cloak and his dancing shoon
 And runs along like a soft shy mouse
-Till he comes to the door of the witch's house.
-"Ho!" he cries, "it is junketing weather";
+Till he comes to the door of the witch’s house.
+“Ho!” he cries, “it is junketing weather”;
 And off they go on the spree together.
 -----File: 045.png---------------------------------------------------------
 
 Off they go on the tail of the wind:
 The great black pussy-cat sails behind.
-Haven't you heard them banging about?
-Haven't you heard them whistle and shout?
-Haven't you seen them now and again
+Haven’t you heard them banging about?
+Haven’t you heard them whistle and shout?
+Haven’t you seen them now and again
 Peering in at the window-pane?
-Oh, but I tell you it's better to hide
+Oh, but I tell you it’s better to hide
 When the witch and the goblin are out for a ride.
 */
 -----File: 046.png---------------------------------------------------------
@@ -794,7 +794,7 @@ I heard a little tiny noise behind the cupboard door
 And something soft and small and quick flashed right across the floor.
 The day had very nearly gone and I could hardly see;
 I do so wish that it would come again to visit me;
-The whole day long I've looked and looked and looked about the house,
+The whole day long I’ve looked and looked and looked about the house,
 <i>I</i> think it was a fairy. <i>Nurse</i> thinks it was a mouse.
 */
 -----File: 048.png---------------------------------------------------------
@@ -825,10 +825,10 @@ TEMPER
 
 
 /*
-"Blow out the light," they said, they said
-  (She'd got to the very last page);
-"Blow out the light," they said, they said,
-"It's dreadfully wicked to read in bed";
+“Blow out the light,” they said, they said
+  (She’d got to the very last page);
+“Blow out the light,” they said, they said,
+“It’s dreadfully wicked to read in bed”;
 Her eyes grew black and her face grew red
   And she blew in a terrible rage.
 
@@ -840,12 +840,12 @@ The stars all scuttled away and hid--
   (A very wise thing to do).
 -----File: 050.png---------------------------------------------------------
 
-But please don't whisper the tale about,
-  She'd get into trouble, she would;
-Please don't whisper the tale about,
+But please don’t whisper the tale about,
+  She’d get into trouble, she would;
+Please don’t whisper the tale about,
 If anyone else should ever find out
-She'd get into trouble without a doubt,
-  And now she's <i>ever</i> so good.
+She’d get into trouble without a doubt,
+  And now she’s <i>ever</i> so good.
 */
 -----File: 051.png---------------------------------------------------------
 
@@ -862,15 +862,15 @@ My patent shoes with shiny toes,
 My Sunday hat with little bows,
 And ribbons hanging down.
 I like to hear the people say:
-"How pretty Nancy looks to-day!"
+“How pretty Nancy looks to-day!”
 
 But Daddy shakes his head and says:
-"You'll make her very vain."
-And Grannie says: "She should be dressed
-In everything that's of the best
-But rather neat and plain."
-And Mother says: "My goodness me!
-Who <i>can</i> this lovely lady be?"
+“You’ll make her very vain.”
+And Grannie says: “She should be dressed
+In everything that’s of the best
+But rather neat and plain.”
+And Mother says: “My goodness me!
+Who <i>can</i> this lovely lady be?”
 */
 -----File: 052.png---------------------------------------------------------
 
@@ -901,7 +901,7 @@ SOMETIMES
 /*
 Some days are fairy days. The minute that you wake
 You have a magic feeling that you never could mistake;
-You may not see the fairies, but you know that they're about,
+You may not see the fairies, but you know that they’re about,
 And any single minute they might all come popping out;
 You want to laugh, you want to sing, you want to dance and run,
 Everything is different, everything is fun;
@@ -931,14 +931,14 @@ Bunny, bunny, smooth your fur,
   Wash your little face;
 Dormouse, wake you up and stir
   Lest you lose your place.
-Hasten, squirrel, don't be shy--
+Hasten, squirrel, don’t be shy--
 The Queen is coming by.
 
 Linnets, wrens, be ready, please,
   With your sweetest notes,
 Perch among the waiting trees,
   Tune your tiny throats.
-Skylark, won't you leave the sky?
+Skylark, won’t you leave the sky?
 The Queen is coming by.
 
 Goblins, stop your naughty tricks,
@@ -975,7 +975,7 @@ We saw a garden-ground inside
 Where it was light as noon.
 -----File: 057.png---------------------------------------------------------
 And fairy folk looked out and spoke:
-"Come in, come in and play!"
+“Come in, come in and play!”
 We climbed a little silver stair--
 It was so beautiful in there
 I wished that I might stay.
@@ -1000,7 +1000,7 @@ A COMPLAINT
 
 
 /*
-You've stolen all our mushrooms!
+You’ve stolen all our mushrooms!
 When friends come in to tea
 In Fairyland it is the rule
 To offer them a satin stool;
@@ -1008,7 +1008,7 @@ The grass is often very wet
 And furniture is hard to get,
 As you must all agree.
 
-You've stolen all our mushrooms
+You’ve stolen all our mushrooms
 And left not one behind.
 If people came by night and day
 And took your prettiest chairs away
@@ -1017,11 +1017,11 @@ Without so much as thanking you,
 Now would you call it kind?
 -----File: 059.png---------------------------------------------------------
 
-You've stolen all our mushrooms,
-And, if you don't take care,
-We'll go about the fields at night
+You’ve stolen all our mushrooms,
+And, if you don’t take care,
+We’ll go about the fields at night
 And paint the toadstools brown and white,
-And you'll be punished for your greed
+And you’ll be punished for your greed
 By being very ill indeed--
 So you had best beware.
 */
@@ -1059,7 +1059,7 @@ Since they from grateful hearts can only sing you
 
 
 /#
-The author's best thanks are due to the Editor and
+The author’s best thanks are due to the Editor and
 Proprietors of <i>Punch</i>, through whose courtesy she
 is able to include in this collection a number of
 verses which have already appeared in that paper.

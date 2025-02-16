@@ -49,6 +49,12 @@
 .nr psi 0.75em
 .nr tag-g ""
 
+// Insert title image for HTML version
+.if h
+.il fn=title.png w=240px ew=50%
+.pb
+.if-
+
 .bn 001.png
 .pn 1
 
@@ -134,7 +140,7 @@ SECOND EDITION
 .h2
 CONTENTS
 
-.ta l:34 r:4 w=50%
+.ta l:34 r:4
 <th>                                      | PAGE
 <sc>Consolation</sc>                      |   #9#
 <sc>If you meet a Fairy</sc>              |  #11#

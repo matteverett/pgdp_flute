@@ -107,7 +107,7 @@ SECOND EDITION
 
 .pm chapter-break
 
-.ta l:15 c:16
+.ta l:17 c:18 w=none
 <fs=75%><i>First Published</i></fs> | <fs=75%><i>October 6th 1921</i></fs>
 <fs=75%><i>Second Edition</i></fs> | <fs=75%><i>1922</i></fs>
 .ta-
@@ -134,7 +134,7 @@ SECOND EDITION
 .h2
 CONTENTS
 
-.ta l:34 r:4
+.ta l:34 r:4 w=50%
 <th>                                      | PAGE
 <sc>Consolation</sc>                      |   #9#
 <sc>If you meet a Fairy</sc>              |  #11#

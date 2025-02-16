@@ -1,148 +1,192 @@
+// ppgen source for The fairy flute
+// ppgen ver 3.57e
 
------File: 001.png---------------------------------------------------------
+// Set title
+.dt The Fairy Flute | Project Gutenberg
 
+// Set line length
+.ll 72
 
+// Define CSS
+.de .tnbox { border:1px solid silver; padding: 0.5em; margin:2em 10% 0 10%; }
 
+// Define macros
+.dm chapter-break
+.sp 4
+.dm-
 
-THE FAIRY FLUTE
------File: 002.png---------------------------------------------------------
+.dm section-break
+.sp 2
+.dm-
 
+.dm new-page $1
+.bn $1.png
+.pn +1
+.dm-
 
+.dm new-page-break $1
+.pb
+.pm new-page $1
+.dm-
 
+.dm verse-start
+.in +4
+.nf b
+.dm-
 
+.dm verse-end
+.nf-
+.in -4
+.dm-
+// letter
+
+// Page numbering
+.pn off // turn off visible page numbers
+.pn link
+
+// Paragraph formatting, indent paragraphs by 0.75 em.
+.pi
+.nr psi 0.75em
+.nr tag-g ""
+
+.bn 001.png
+.pn 1
+
+.pm chapter-break
+
+.ce
+<fs=125%>THE FAIRY FLUTE</fs>
+
+.pm chapter-break
+
+.pm new-page-break 002
+
+.pm chapter-break
+
+.nf b
 BY THE SAME AUTHOR
 
+  <sc>Fairies and Chimneys</sc>
+  <sc>The Fairy Green</sc>
+.nf-
 
-/*
-<sc>Fairies and Chimneys</sc>
-<sc>The Fairy Green</sc>
-*/
------File: 003.png---------------------------------------------------------
+.pm chapter-break
 
+.pm new-page-break 003
 
+.pm chapter-break
 
+.h1
+<fs=140%>THE FAIRY FLUTE</fs>
 
-/*
-THE FAIRY FLUTE
+.pm chapter-break
 
+.fs 75%
+.ce 4
 BY
 
-ROSE FYLEMAN
-
+<fs=200%>ROSE FYLEMAN</fs>
 AUTHOR OF “FAIRIES AND CHIMNEYS”
 
+.pm chapter-break
+
+.ce
 SECOND EDITION
+.fs
 
-METHUEN & CO. LTD.
-36 ESSEX STREET W.C.
-LONDON
-*/
------File: 004.png---------------------------------------------------------
+.pm chapter-break
 
+.ce 3
+<g>METHUEN & CO. LTD.</g>
+<g>36 ESSEX STREET W.C.</g>
+<g>LONDON</g>
 
+.pm chapter-break
 
+.pm new-page-break 004
 
-/*
-<i>First Published</i>      <i>October 6th 1921</i>
-<i>Second Edition</i>       <i>1922</i>
-*/
------File: 005.png---------------------------------------------------------
+.pm chapter-break
 
+.ta l:15 c:16
+<fs=75%><i>First Published</i></fs> | <fs=75%><i>October 6th 1921</i></fs>
+<fs=75%><i>Second Edition</i></fs> | <fs=75%><i>1922</i></fs>
+.ta-
 
+.pm chapter-break
 
+.pm new-page-break 005
 
-TO <i>ALL</i>
+.pm chapter-break
 
-MY NEPHEWS AND NIECES
------File: 006.png---------------------------------------------------------
------File: 007.png---------------------------------------------------------
+.ce 3
+<fs=75%>TO <i>ALL</i></fs>
 
+<fs=75%>MY NEPHEWS AND NIECES</fs>
+.fs
 
+.pm chapter-break
 
+.pm new-page 006
+.pm new-page-break 007
 
+.pm chapter-break
+
+.h2
 CONTENTS
 
+.ta l:34 r:4
+<th>                                      | PAGE
+<sc>Consolation</sc>                      |   #9#
+<sc>If you meet a Fairy</sc>              |  #11#
+<sc>Fairy Lore</sc>                       |  #13#
+<sc>Every Fairy has a Star</sc>           |  #15#
+<sc>The Fairy Lover</sc>                  |  #17#
+<sc>The Fairy Tailor</sc>                 |  #19#
+<sc>At Dawn</sc>                          |  #22#
+<sc>The Green Loch</sc>                   |  #24#
+<sc>The Skylark</sc>                      |  #26#
+<sc>In Bond Street</sc>                   |  #28#
+<sc>Timothy</sc>                          |  #29#
+<sc>Fairy Lullaby for a Mortal</sc>       |  #31#
+<sc>The Canary</sc>                       |  #33#
+<sc>Rainy Morning</sc>                    |  #35#
+<sc>This is the Way the Fairies sing</sc> |  #37#
+<sc>The Fairy Ball</sc>                   |  #39#
+<sc>Useful Hints</sc>                     |  #40#
+<sc>The Fairy Flute</sc>                  |  #41#
+<sc>The Apple-Tree</sc>                   |  #43#
+<sc>A Strange Pair</sc>                   |  #44#
+<sc>The Willow Princesses</sc>            |  #46#
+<sc>A Visitor</sc>                        |  #47#
+<sc>The Little Prince</sc>                |  #48#
+<sc>Temper</sc>                           |  #49#
+<sc>Best</sc>                             |  #51#
+<sc>What I shall be</sc>                  |  #52#
+<sc>Sometimes</sc>                        |  #53#
+<sc>Prepare!</sc>                         |  #55#
+<sc>A Voyage</sc>                         |  #56#
+<sc>A Complaint</sc>                      |  #58#
+<sc>The Fairies give Thanks</sc>          |  #60#
+.ta-
 
-/*
-      PAGE
+.pm chapter-break
 
-<sc>Consolation</sc>      9
+.pm new-page 008
+.pm new-page-break 009
 
-<sc>If you meet a Fairy</sc>      11
+.pm chapter-break
 
-<sc>Fairy Lore</sc>      13
+.ce
+<fs=150%>THE FAIRY FLUTE</fs>
 
-<sc>Every Fairy has a Star</sc>      15
+.pm chapter-break
 
-<sc>The Fairy Lover</sc>      17
-
-<sc>The Fairy Tailor</sc>      19
-
-<sc>At Dawn</sc>      22
-
-<sc>The Green Loch</sc>      24
-
-<sc>The Skylark</sc>      26
-
-<sc>In Bond Street</sc>      28
-
-<sc>Timothy</sc>      29
-
-<sc>Fairy Lullaby for a Mortal</sc>      31
-
-<sc>The Canary</sc>      33
-
-<sc>Rainy Morning</sc>      35
-
-<sc>This is the Way the Fairies sing</sc>      37
-
-<sc>The Fairy Ball</sc>      39
-
-<sc>Useful Hints</sc>      40
-
-<sc>The Fairy Flute</sc>      41
-
-<sc>The Apple-Tree</sc>      43
-
-<sc>A Strange Pair</sc>      44
-
-<sc>The Willow Princesses</sc>      46
-
-<sc>A Visitor</sc>      47
-
-<sc>The Little Prince</sc>      48
-
-<sc>Temper</sc>      49
-
-<sc>Best</sc>      51
-
-<sc>What I shall be</sc>      52
-
-<sc>Sometimes</sc>      53
-
-<sc>Prepare!</sc>      55
-
-<sc>A Voyage</sc>      56
-
-<sc>A Complaint</sc>      58
-
-<sc>The Fairies give Thanks</sc>      60
-*/
------File: 008.png---------------------------------------------------------
------File: 009.png---------------------------------------------------------
-
-
-
-
-THE FAIRY FLUTE
-
-
-
-
+.h2
 CONSOLATION
 
+.pm section-break
 
-/*
+.pm verse-start
 You may be very ugly and freckledy and small
 And have a little stubby nose that’s not a nose at all;
 You may be bad at spelling and you may be worse at sums,
@@ -152,21 +196,25 @@ But if you love the fairies—you don’t mind.
 
 You may be rather frightened when you read of wolves and bears
 Or when you pass the cupboard-place beneath the attic stairs;
------File: 010.png---------------------------------------------------------
+.pm new-page 010
 You may not always like it when thunder makes a noise
 That seems so much, much bigger than little girls and boys;
 You may feel rather lonely when you waken in the night,
 But if the fairies love you—<i>it’s all right</i>.
-*/
------File: 011.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 011
 
+.pm chapter-break
 
+.h2
 IF YOU MEET A FAIRY
 
+.pm section-break
 
-/*
+.pm verse-start
 If you meet a fairy
 Don’t run away;
 She won’t want to hurt you,
@@ -186,7 +234,7 @@ I knew a little girl once
 Who saw twenty-three
 Playing in the orchard
 As jolly as could be.
------File: 012.png---------------------------------------------------------
+.pm new-page 012
 
 They asked her to dance with them
 To make a twenty-four;
@@ -202,16 +250,20 @@ If you meet a fairy
 Remember what I say,
 Talk to her nicely
 And don’t run away.
-*/
------File: 013.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 013
 
+.pm chapter-break
 
+.h2
 FAIRY LORE
 
+.pm section-break
 
-/*
+.pm verse-start
 Fairies learn to dance before they learn to walk;
 Fairies learn to sing before they learn to talk;
 Fairies learn their counting from the cuckoo’s call;
@@ -221,22 +273,26 @@ Fairies go a-riding with witches on their brooms
 And steal away the rainbows to brighten up their rooms;
 Fairies like a sky-dance better than a feast;
     They have a birthday once a week at least.
------File: 014.png---------------------------------------------------------
+.pm new-page 014
 
 Fairies think the rain as pretty as the sun;
 Fairies think that trespass-boards are only made for fun;
 Fairies think that peppermint’s the nicest thing they know;
     I <i>always</i> take a packet when I go.
-*/
------File: 015.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 015
 
+.pm chapter-break
 
+.h2
 EVERY FAIRY HAS A STAR
 
+.pm section-break
 
-/*
+.pm verse-start
 Every fairy has a star
 Where all her tiny treasures are,
 And there her faithful gnome,
@@ -254,22 +310,26 @@ And sometimes has a doze.
 But at the earliest crow of cock
 Back to the sky the fairies flock,
 And at their doors they stand and knock
------File: 016.png---------------------------------------------------------
+.pm new-page 016
 (The air is keen and chill)—
 They do not wait to see the sun;
 Straight to their little beds they run;
 The stars are darkened one by one
 And all the sky is still.
-*/
------File: 017.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 017
 
+.pm chapter-break
 
+.h2
 THE FAIRY LOVER
 
+.pm section-break
 
-/*
+.pm verse-start
 You walk in your orchard, you sit in your bower
 Mid plentiful treasure of fruit and of flower;
 But you shall have pleasaunces brighter than these,
@@ -284,7 +344,7 @@ Your ladies-in-waiting are gracious and fair
 And a little page stands by the side of your chair;
 But an army of goblins shall do your behest
 And fly at your bidding to East and to West.
------File: 018.png---------------------------------------------------------
+.pm new-page 018
 
 You shall sit on a cushion of velvety moss,
 Embroidered with sunbeams across and across,
@@ -295,16 +355,20 @@ I will tap at your window some moon-silvered night,
 And when you lean down through the jessamine white
 My fairy-swift wings I shall softly unfurl
 And bear you away to my palace of pearl.
-*/
------File: 019.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 019
 
+.pm chapter-break
 
+.h2
 THE FAIRY TAILOR
 
+.pm section-break
 
-/*
+.pm verse-start
 Sitting on the flower-bed beneath the hollyhocks
 I spied the tiny tailor who makes the fairies’ frocks;
 There he sat a-stitching all the afternoon
@@ -316,7 +380,7 @@ And sang a little ditty to a quaint wee tune:
 
 All about the garden his little men he sent,
 Up and down and in and out unceasingly they went.
------File: 020.png---------------------------------------------------------
+.pm new-page 020
 Here they stole a blossom, there they pulled a leaf,
 And bound them up with gossamer into a glowing sheaf.
   Petals of the pansy for little velvet shoon,
@@ -330,19 +394,23 @@ They heaped them all about him in a sweet gay pile,
 But still he kept a-stitching and a-singing all the while:
   “Grey for the goblins, blue for the elves,
   Brown for the little gnomes that live by themselves,
------File: 021.png---------------------------------------------------------
+.pm new-page 021
   White for the pixies that dance on the green,
   But who shall make a royal gown to deck the Fairy Queen?”
-*/
------File: 022.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 022
 
+.pm chapter-break
 
+.h2
 AT DAWN
 
+.pm section-break
 
-/*
+.pm verse-start
 Though the fairies meet by night
   In the moonlit spaces,
 Often in the morning light
@@ -360,7 +428,7 @@ And if you will look about
   Soon you will discover
 Fairy washing hanging out
   All among the clover.
------File: 023.png---------------------------------------------------------
+.pm new-page 023
 
 In the quiet woods you might,
   If your ways be wary,
@@ -370,16 +438,20 @@ On a lily-leaf, perchance,
   Broad and smooth and level,
 Practising her tiny dance
   For the evening revel.
-*/
------File: 024.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 024
 
+.pm chapter-break
 
+.h2
 THE GREEN LOCH
 
+.pm section-break
 
-/*
+.pm verse-start
 Far in the hills the Green Loch lies,
 Its constant emerald mocks at the skies;
 Though they be garmented grey or blue
@@ -396,7 +468,7 @@ They twist and tumble and dart and dive
 Till all the lake is alight and alive,
 And glows with a tremulous sparkling sheen
 Like the jewelled robe of an Eastern queen.
------File: 025.png---------------------------------------------------------
+.pm new-page 025
 
 But ere the morning has well begun
 They all come leaping forth to the sun.
@@ -411,16 +483,20 @@ They leave not a sign, they leave not a trace,
 A slumberous calm lies over the place;
 Only the green, green waters bide
 To tell the secret they never can hide.
-*/
------File: 026.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 026
 
+.pm chapter-break
 
+.h2
 THE SKYLARK
 
+.pm section-break
 
-/*
+.pm verse-start
 Of all the birds the fairies love the skylark much the best;
 They come with little fairy gifts to seek his hidden nest.
 They praise his tiny slender feet and silken suit of brown,
@@ -430,22 +506,26 @@ They cluster round with glowing cheeks and bright expectant eyes,
 Waiting the moment that shall bring the freedom of the skies;
 Waiting the double-sweet delight that only he can give—
 (Oh, kings might surely spurn their crowns to live as fairies live).
------File: 027.png---------------------------------------------------------
+.pm new-page 027
 
 To ride upon a skylark’s back between his happy wings,
 To float upon the edge of heaven and listen while he sings—
 The dreams of mortals scarce can touch so perfected a bliss,
 And even fairies could not know a greater joy than this.
-*/
------File: 028.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 028
 
+.pm chapter-break
 
+.h2
 IN BOND STREET
 
+.pm section-break
 
-/*
+.pm verse-start
 Upon her little velvet hat
   A silken tassel hung,
 And to the very end of that
@@ -466,16 +546,20 @@ Along the street I watched her go
 And still he tumbled to and fro
 (It seemed so strange she should not know)
   Among her golden hair.
-*/
------File: 029.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 029
 
+.pm chapter-break
 
+.h2
 TIMOTHY
 
+.pm section-break
 
-/*
+.pm verse-start
 My cat Timothy who has such lovely eyes
 Is really not a cat at all; it’s only a disguise.
 A witch cast a spell on him a long time since
@@ -490,22 +574,26 @@ The fairies go a-dancing, a-dancing in a ring,
 He sits in the middle with a crown like a king,
 High on a throne in the middle of the grass,
 And the fairies stop capering to curtsey as they pass.
------File: 030.png---------------------------------------------------------
+.pm new-page 030
 
 Some day, some day when the spell is done
 He will be a Prince again. <i>Won’t</i> that be fun?
 He will come to seek me and kiss my lily hand
 And take me on his foaming steed to reign in fairyland.
-*/
------File: 031.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 031
 
+.pm section-break
 
+.h2
 FAIRY LULLABY FOR A MORTAL
 
+.pm chapter-break
 
-/*
+.pm verse-start
 Sleep, oh sleep, for the night is still;
 The friendly moon peers over the hill;
 Cradled soft on the bosom of night
@@ -524,7 +612,7 @@ Sleep, oh sleep; with never a sound
 We will circle mazily round and around;
 We will wrap you close in a web of dreams
 Shot with delicate fairy gleams;
------File: 032.png---------------------------------------------------------
+.pm new-page 032
 With our soft, soft wings we will brush away
 The sorrowful darkness that comes with the day.
 
@@ -534,16 +622,20 @@ How can we go when the gifts we brought,
 For all our loving, have served you nought?
 How can we leave you and know you weep?
 Will you not hush you, and smile, and sleep?
-*/
------File: 033.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 033
 
+.pm chapter-break
 
+.h2
 THE CANARY
 
+.pm section-break
 
-/*
+.pm verse-start
 He used to be a fairy once,
   A little singing fairy;
 He would not work, he would not play,
@@ -561,23 +653,27 @@ He’s taught me lots of lovely things
 He’s told me what they say and do
 (They all have wings—it’s really true)
   And how the Queen is dressed.
------File: 034.png---------------------------------------------------------
+.pm new-page 034
 
 He flits about the house at night
   A little lonely fairy;
 But nobody is there to see,
 And no one knows—excepting me—
   He’s not a real canary.
-*/
------File: 035.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 035
 
+.pm chapter-break
 
+.h2
 RAINY MORNING
 
+.pm section-break
 
-/*
+.pm verse-start
 As I was walking in the rain
 I met a fairy down a lane.
 We walked along the road together,
@@ -595,21 +691,25 @@ And furry creatures all the way
 Came popping out and said “Good-day.”
 But when we reached the little bend,
 Just where the village houses end,
------File: 036.png---------------------------------------------------------
+.pm new-page 036
 He seemed to slip into the ground,
 And when I looked about I found
 The rain was suddenly all over
 And the sun shining on the clover.
-*/
------File: 037.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 037
 
+.pm chapter-break
 
+.h2
 THIS IS THE WAY THE FAIRIES SING
 
+.pm section-break
 
-/*
+.pm verse-start
 This is the way the fairies sing:
 They all stand round in a shining ring
 On quiet nights when the moon is high,
@@ -627,7 +727,7 @@ This is the way the fairies dance:
 They point their toes and they leap and prance
 Over and under and round and round,
 Now in the air and now on the ground,
------File: 038.png---------------------------------------------------------
+.pm new-page 038
 In a shimmering, glimmering moon-lit maze
 To a wonderful music that nobody plays.
 And swift their dance as the coming of spring,
@@ -636,16 +736,20 @@ And strange as the gleams in a stormy sky
 And changing-bright as the peacock’s dye.
 Oh, lucky are you if you get the chance
 To learn the way that the fairies dance.
-*/
------File: 039.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 039
 
+.pm chapter-break
 
+.h2
 THE FAIRY BALL
 
+.pm section-break
 
-/*
+.pm verse-start
 “I am asked to the ball to-night, to-night;
 What shall I wear, for I must look right?”
 “Search in the fields for a lady-smock;
@@ -660,30 +764,38 @@ A daisy-chain is the properest thing.”
 What shall I do if I shake with fright?”
 “When you are there you will understand
 That no one is frightened in Fairyland.”
-*/
------File: 040.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 040
 
+.pm chapter-break
 
+.h2
 USEFUL HINTS
 
+.pm section-break
 
-/*
+.pm verse-start
 Fairy flannel is the skin of peaches,
 Fairy brushes are the nuts of beeches,
 Velvet bulrushes are fairy pillows,
 Fairy muffs are made of pussy-willows.
-*/
------File: 041.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 041
 
+.pm chapter-break
 
+.h2
 THE FAIRY FLUTE
 
+.pm section-break
 
-/*
+.pm verse-start
 My brother has a little flute
 Of gold and ivory,
 He found it on a summer night
@@ -700,21 +812,25 @@ He plays it in the village,
 And all along the street
 The people stop to listen,
 The music is so sweet.
------File: 042.png---------------------------------------------------------
+.pm new-page 042
 And none but he can play it
 And none can understand,
 Because it is a fairy flute
 And comes from Fairyland.
-*/
------File: 043.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 043
 
+.pm chapter-break
 
+.h2
 THE APPLE-TREE
 
+.pm section-break
 
-/*
+.pm verse-start
 I stood beneath the apple-tree,
 The apples were so good to see;
 Very high above my head
@@ -724,16 +840,20 @@ A robin sang a tiny song,
 And after I had waited long
 A fairy in the apple-tree
 Threw an apple down to me.
-*/
------File: 044.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 044
 
+.pm chapter-break
 
+.h2
 A STRANGE PAIR
 
+.pm section-break
 
-/*
+.pm verse-start
 The witch, the witch that lives in the wood
 Is not very pretty and not very good;
 Her face is brown and her eyes are black,
@@ -751,7 +871,7 @@ And runs along like a soft shy mouse
 Till he comes to the door of the witch’s house.
 “Ho!” he cries, “it is junketing weather”;
 And off they go on the spree together.
------File: 045.png---------------------------------------------------------
+.pm new-page 045
 
 Off they go on the tail of the wind:
 The great black pussy-cat sails behind.
@@ -761,16 +881,20 @@ Haven’t you seen them now and again
 Peering in at the window-pane?
 Oh, but I tell you it’s better to hide
 When the witch and the goblin are out for a ride.
-*/
------File: 046.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 046
 
+.pm chapter-break
 
+.h2
 THE WILLOW PRINCESSES
 
+.pm section-break
 
-/*
+.pm verse-start
 The tall princesses in the willow tree
 They move their lazy, lovely heads about,
 They wave their arms, their hair goes streaming out,
@@ -780,32 +904,40 @@ But presently they cease to sway and swing
 And stand quite still, and whisper gentle words,
 Quietly calling to the little birds
 To perch upon their pretty hands and sing.
-*/
------File: 047.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 047
 
+.pm chapter-break
 
+.h2
 A VISITOR
 
+.pm section-break
 
-/*
+.pm verse-start
 I heard a little tiny noise behind the cupboard door
 And something soft and small and quick flashed right across the floor.
 The day had very nearly gone and I could hardly see;
 I do so wish that it would come again to visit me;
 The whole day long I’ve looked and looked and looked about the house,
 <i>I</i> think it was a fairy. <i>Nurse</i> thinks it was a mouse.
-*/
------File: 048.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 048
 
+.pm chapter-break
 
+.h2
 THE LITTLE PRINCE
 
+.pm section-break
 
-/*
+.pm verse-start
 My mother is a queen and my father is a king
 And I have a garden with pretty birds that sing,
 Where pansies and marigolds and hollyhocks grow
@@ -815,16 +947,20 @@ My father is a king and my mother is a queen
 And I have a little page dressed all in green,
 A treasure-mine in Barbary, an orange-grove in Spain,
 And a little brown monkey on a long gold chain.
-*/
------File: 049.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 049
 
+.pm chapter-break
 
+.h2
 TEMPER
 
+.pm section-break
 
-/*
+.pm verse-start
 “Blow out the light,” they said, they said
   (She’d got to the very last page);
 “Blow out the light,” they said, they said,
@@ -838,7 +974,7 @@ She put out the moon, she did, she did;
 Over the sky the darkness slid,
 The stars all scuttled away and hid—
   (A very wise thing to do).
------File: 050.png---------------------------------------------------------
+.pm new-page 050
 
 But please don’t whisper the tale about,
   She’d get into trouble, she would;
@@ -846,16 +982,20 @@ Please don’t whisper the tale about,
 If anyone else should ever find out
 She’d get into trouble without a doubt,
   And now she’s <i>ever</i> so good.
-*/
------File: 051.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 051
 
+.pm chapter-break
 
+.h2
 BEST
 
+.pm section-break
 
-/*
+.pm verse-start
 I like to wear my party frock
 That Auntie bought in town,
 My patent shoes with shiny toes,
@@ -871,16 +1011,20 @@ In everything that’s of the best
 But rather neat and plain.”
 And Mother says: “My goodness me!
 Who <i>can</i> this lovely lady be?”
-*/
------File: 052.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 052
 
+.pm chapter-break
 
+.h2
 WHAT I SHALL BE
 
+.pm section-break
 
-/*
+.pm verse-start
 I shall be a lady
 As pretty as you please,
 And I shall have a garden
@@ -889,16 +1033,20 @@ A pretty little kitchen
 With rows of shining pots,
 A hothouse full of peaches
 And a nursery full of cots.
-*/
------File: 053.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 053
 
+.pm chapter-break
 
+.h2
 SOMETIMES
 
+.pm section-break
 
-/*
+.pm verse-start
 Some days are fairy days. The minute that you wake
 You have a magic feeling that you never could mistake;
 You may not see the fairies, but you know that they’re about,
@@ -910,23 +1058,27 @@ The sky is full of fairy clouds, the streets are fairy ways—
 
 Some nights are fairy nights. Before you go to bed
 You hear their darling music go chiming in your head;
------File: 054.png---------------------------------------------------------
+.pm new-page 054
 You look into the garden, and through the misty grey
 You see the trees all waiting in a breathless kind of way.
 All the stars are smiling; they know that very soon
 The fairies will come singing from the land behind the moon.
 If only you could keep awake when Nurse puts out the light ...
 <i>Anything</i> might happen on a truly fairy night.
-*/
------File: 055.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 055
 
+.pm chapter-break
 
+.h2
 PREPARE!
 
+.pm section-break
 
-/*
+.pm verse-start
 Bunny, bunny, smooth your fur,
   Wash your little face;
 Dormouse, wake you up and stir
@@ -947,16 +1099,20 @@ Witches, raise your besom sticks
   For an arch of state.
 Quickly, fairies, hither fly—
 The Queen is coming by.
-*/
------File: 056.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 056
 
+.pm chapter-break
 
+.h2
 A VOYAGE
 
+.pm section-break
 
-/*
+.pm verse-start
 They took me out a-sailing—
 The boat was made of glass;
 We sailed upon the little clouds,
@@ -973,7 +1129,7 @@ We anchored by the moon;
 The golden door was open wide,
 We saw a garden-ground inside
 Where it was light as noon.
------File: 057.png---------------------------------------------------------
+.pm new-page 057
 And fairy folk looked out and spoke:
 “Come in, come in and play!”
 We climbed a little silver stair—
@@ -990,16 +1146,20 @@ I saw the dewdrops gleam
 Among the cobwebs on the lawn
 As we came home at break of dawn....
 It was not all a dream.
-*/
------File: 058.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 058
 
+.pm chapter-break
 
+.h2
 A COMPLAINT
 
+.pm section-break
 
-/*
+.pm verse-start
 You’ve stolen all our mushrooms!
 When friends come in to tea
 In Fairyland it is the rule
@@ -1015,7 +1175,7 @@ And took your prettiest chairs away
 And made them all into a stew
 Without so much as thanking you,
 Now would you call it kind?
------File: 059.png---------------------------------------------------------
+.pm new-page 059
 
 You’ve stolen all our mushrooms,
 And, if you don’t take care,
@@ -1024,16 +1184,20 @@ And paint the toadstools brown and white,
 And you’ll be punished for your greed
 By being very ill indeed—
 So you had best beware.
-*/
------File: 060.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 060
 
+.pm chapter-break
 
+.h2
 THE FAIRIES GIVE THANKS
 
+.pm section-break
 
-/*
+.pm verse-start
 To all kind folk who make delightful gardens
         Where we may live,
 Enjoying days and nights of busy leisure
@@ -1045,25 +1209,53 @@ For dancing-lawns and gravelled jousting-places,
 For ferny thickets strewn with moss-grown mountains
 And lily-pools and waterfalls and fountains—
         For all of these.
------File: 061.png---------------------------------------------------------
+.pm new-page 061
 
 Charged are we also by our little comrades
         The gentle birds,
 That we their messages of thanks should bring you,
 Since they from grateful hearts can only sing you
         Songs without words.
-*/
------File: 062.png---------------------------------------------------------
+.pm verse-end
 
+.pm chapter-break
 
+.pm new-page-break 062
 
+.pm chapter-break
 
-/#
+.fs 75%
+.nf b
 The author’s best thanks are due to the Editor and
 Proprietors of <i>Punch</i>, through whose courtesy she
 is able to include in this collection a number of
 verses which have already appeared in that paper.
-#/
+.nf-
 
+.pm chapter-break
 
+.ce
 PRINTED BY MORRISON AND GIBB LTD., EDINBURGH
+.fs
+
+.pb
+
+.dv class=tnbox
+.ce
+.if h
+<b>Transcriber’s Notes</b>
+.if-
+.if t
+Transcriber’s Notes
+.if-
+.ul
+.it A stanza break was inserted at the start of page #25# before "But ere the morning has well begun"
+.it Missing or obscured punctuation was silently corrected.
+.it Typographical errors were silently corrected.
+.it Inconsistent spelling and hyphenation were made consistent only when a\
+predominant form was found in this book.
+.if t
+.it Text in italics is enclosed by underscores (<i>italics</i>).
+.if-
+.ul-
+.dv-

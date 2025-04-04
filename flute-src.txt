@@ -11,9 +11,18 @@
 .de .tnbox { border:1px solid silver; padding: 0.5em; margin:2em 10% 0 10%; }
 
 // Define macros
+.if t
 .dm chapter-break
 .sp 4
 .dm-
+.if-
+
+.if h
+.dm chapter-break
+.sp 3
+.dm-
+.if-
+
 
 .dm section-break
 .sp 2
@@ -26,6 +35,7 @@
 
 .dm new-page-break $1
 .pb
+.pm chapter-break
 .pm new-page $1
 .dm-
 
@@ -41,7 +51,6 @@
 // letter
 
 // Page numbering
-.pn off // turn off visible page numbers
 .pn link
 
 // Paragraph formatting, indent paragraphs by 0.75 em.
@@ -49,9 +58,26 @@
 .nr psi 0.75em
 .nr tag-g ""
 
+// Swap title and pageno
+
+.if t
+.ce
+Transcriber’s Notes
+.ul
+.it A stanza break was inserted at the start of page #25# before "But ere the morning has well begun"
+.it Missing or obscured punctuation was silently corrected.
+.it Typographical errors were silently corrected.
+.it Inconsistent spelling and hyphenation were made consistent only when a\
+predominant form was found in this book.
+.it Text in italics is enclosed by underscores (<i>italics</i>).
+.ul-
+.pm chapter-break
+.pb
+.if-
+
 // Insert title image for HTML version
 .if h
-.il fn=title.png w=240px ew=50%
+.il fn=title.png w=300px ew=65%
 .pb
 .if-
 
@@ -67,8 +93,6 @@
 
 .pm new-page-break 002
 
-.pm chapter-break
-
 .nf b
 BY THE SAME AUTHOR
 
@@ -79,8 +103,6 @@ BY THE SAME AUTHOR
 .pm chapter-break
 
 .pm new-page-break 003
-
-.pm chapter-break
 
 .h1
 <fs=140%>THE FAIRY FLUTE</fs>
@@ -111,8 +133,6 @@ SECOND EDITION
 
 .pm new-page-break 004
 
-.pm chapter-break
-
 .ta l:17 c:18 w=none
 <fs=75%><i>First Published</i></fs> | <fs=75%><i>October 6th 1921</i></fs>
 <fs=75%><i>Second Edition</i></fs> | <fs=75%><i>1922</i></fs>
@@ -121,8 +141,6 @@ SECOND EDITION
 .pm chapter-break
 
 .pm new-page-break 005
-
-.pm chapter-break
 
 .ce 3
 <fs=75%>TO <i>ALL</i></fs>
@@ -135,44 +153,42 @@ SECOND EDITION
 .pm new-page 006
 .pm new-page-break 007
 
-.pm chapter-break
-
-.h2
+.h2 nobreak
 CONTENTS
 
-.ta l:34 r:4
+.ta l:34 r:4 w=50% ew=80%
 <th>                                      | PAGE
-<sc>Consolation</sc>                      |   #9#
-<sc>If you meet a Fairy</sc>              |  #11#
-<sc>Fairy Lore</sc>                       |  #13#
-<sc>Every Fairy has a Star</sc>           |  #15#
-<sc>The Fairy Lover</sc>                  |  #17#
-<sc>The Fairy Tailor</sc>                 |  #19#
-<sc>At Dawn</sc>                          |  #22#
-<sc>The Green Loch</sc>                   |  #24#
-<sc>The Skylark</sc>                      |  #26#
-<sc>In Bond Street</sc>                   |  #28#
-<sc>Timothy</sc>                          |  #29#
-<sc>Fairy Lullaby for a Mortal</sc>       |  #31#
-<sc>The Canary</sc>                       |  #33#
-<sc>Rainy Morning</sc>                    |  #35#
-<sc>This is the Way the Fairies sing</sc> |  #37#
-<sc>The Fairy Ball</sc>                   |  #39#
-<sc>Useful Hints</sc>                     |  #40#
-<sc>The Fairy Flute</sc>                  |  #41#
-<sc>The Apple-Tree</sc>                   |  #43#
-<sc>A Strange Pair</sc>                   |  #44#
-<sc>The Willow Princesses</sc>            |  #46#
-<sc>A Visitor</sc>                        |  #47#
-<sc>The Little Prince</sc>                |  #48#
-<sc>Temper</sc>                           |  #49#
-<sc>Best</sc>                             |  #51#
-<sc>What I shall be</sc>                  |  #52#
-<sc>Sometimes</sc>                        |  #53#
-<sc>Prepare!</sc>                         |  #55#
-<sc>A Voyage</sc>                         |  #56#
-<sc>A Complaint</sc>                      |  #58#
-<sc>The Fairies give Thanks</sc>          |  #60#
+<sc>Consolation</sc>                      |   #9:Consolation#
+<sc>If you meet a Fairy</sc>              |  #11:Meet#
+<sc>Fairy Lore</sc>                       |  #13:Lore#
+<sc>Every Fairy has a Star</sc>           |  #15:Star#
+<sc>The Fairy Lover</sc>                  |  #17:Lover#
+<sc>The Fairy Tailor</sc>                 |  #19:Tailor#
+<sc>At Dawn</sc>                          |  #22:Dawn#
+<sc>The Green Loch</sc>                   |  #24:Loch#
+<sc>The Skylark</sc>                      |  #26:Skylark#
+<sc>In Bond Street</sc>                   |  #28:Bond#
+<sc>Timothy</sc>                          |  #29:Timothy#
+<sc>Fairy Lullaby for a Mortal</sc>       |  #31:Lullaby#
+<sc>The Canary</sc>                       |  #33:Canary#
+<sc>Rainy Morning</sc>                    |  #35:Rainy#
+<sc>This is the Way the Fairies sing</sc> |  #37:Way#
+<sc>The Fairy Ball</sc>                   |  #39:Ball#
+<sc>Useful Hints</sc>                     |  #40:Hints#
+<sc>The Fairy Flute</sc>                  |  #41:Flute#
+<sc>The Apple-Tree</sc>                   |  #43:Tree#
+<sc>A Strange Pair</sc>                   |  #44:Pair#
+<sc>The Willow Princesses</sc>            |  #46:Willow#
+<sc>A Visitor</sc>                        |  #47:Visitor#
+<sc>The Little Prince</sc>                |  #48:Prince#
+<sc>Temper</sc>                           |  #49:Temper#
+<sc>Best</sc>                             |  #51:Best#
+<sc>What I shall be</sc>                  |  #52:Shall#
+<sc>Sometimes</sc>                        |  #53:Sometimes#
+<sc>Prepare!</sc>                         |  #55:Prepare#
+<sc>A Voyage</sc>                         |  #56:Voyage#
+<sc>A Complaint</sc>                      |  #58:Complaint#
+<sc>The Fairies give Thanks</sc>          |  #60:Thanks#
 .ta-
 
 .pm chapter-break
@@ -180,20 +196,23 @@ CONTENTS
 .pm new-page 008
 .pm new-page-break 009
 
-.pm chapter-break
-
 .ce
 <fs=150%>THE FAIRY FLUTE</fs>
 
 .pm chapter-break
 
-.h2
-CONSOLATION
+.h2 nobreak
+<target=Consolation>CONSOLATION
 
 .pm section-break
 
 .pm verse-start
+.if t
 You may be very ugly and freckledy and small
+.if-
+.if h
+<sc>You</sc> may be very ugly and freckledy and small
+.if-
 And have a little stubby nose that’s not a nose at all;
 You may be bad at spelling and you may be worse at sums,
 You may have stupid fingers that your Nanna says are thumbs,
@@ -213,15 +232,18 @@ But if the fairies love you—<i>it’s all right</i>.
 
 .pm new-page-break 011
 
-.pm chapter-break
-
-.h2
-IF YOU MEET A FAIRY
+.h2 nobreak
+<target=Meet>IF YOU MEET A FAIRY
 
 .pm section-break
 
 .pm verse-start
+.if t
 If you meet a fairy
+.if-
+.if h
+<sc>If</sc> you meet a fairy
+.if-
 Don’t run away;
 She won’t want to hurt you,
 She’ll only want to play.
@@ -262,15 +284,18 @@ And don’t run away.
 
 .pm new-page-break 013
 
-.pm chapter-break
-
-.h2
-FAIRY LORE
+.h2 nobreak
+<target=Lore>FAIRY LORE
 
 .pm section-break
 
 .pm verse-start
+.if t
 Fairies learn to dance before they learn to walk;
+.if-
+.if h
+<sc>Fairies</sc> learn to dance before they learn to walk;
+.if-
 Fairies learn to sing before they learn to talk;
 Fairies learn their counting from the cuckoo’s call;
     They do not learn Geography at all.
@@ -291,15 +316,18 @@ Fairies think that peppermint’s the nicest thing they know;
 
 .pm new-page-break 015
 
-.pm chapter-break
-
-.h2
-EVERY FAIRY HAS A STAR
+.h2 nobreak
+<target=Star>EVERY FAIRY HAS A STAR
 
 .pm section-break
 
 .pm verse-start
+.if t
 Every fairy has a star
+.if-
+.if h
+<sc>Every</sc> fairy has a star
+.if-
 Where all her tiny treasures are,
 And there her faithful gnome,
 As soon as she goes out at night
@@ -328,15 +356,18 @@ And all the sky is still.
 
 .pm new-page-break 017
 
-.pm chapter-break
-
-.h2
-THE FAIRY LOVER
+.h2 nobreak
+<target=Lover>THE FAIRY LOVER
 
 .pm section-break
 
 .pm verse-start
+.if t
 You walk in your orchard, you sit in your bower
+.if-
+.if h
+<sc>You</sc> walk in your orchard, you sit in your bower
+.if-
 Mid plentiful treasure of fruit and of flower;
 But you shall have pleasaunces brighter than these,
 With magical blossoms and magical trees.
@@ -367,15 +398,18 @@ And bear you away to my palace of pearl.
 
 .pm new-page-break 019
 
-.pm chapter-break
-
-.h2
-THE FAIRY TAILOR
+.h2 nobreak
+<target=Tailor>THE FAIRY TAILOR
 
 .pm section-break
 
 .pm verse-start
+.if t
 Sitting on the flower-bed beneath the hollyhocks
+.if-
+.if h
+<sc>Sitting</sc> on the flower-bed beneath the hollyhocks
+.if-
 I spied the tiny tailor who makes the fairies’ frocks;
 There he sat a-stitching all the afternoon
 And sang a little ditty to a quaint wee tune:
@@ -409,15 +443,18 @@ But still he kept a-stitching and a-singing all the while:
 
 .pm new-page-break 022
 
-.pm chapter-break
-
-.h2
-AT DAWN
+.h2 nobreak
+<target=Dawn>AT DAWN
 
 .pm section-break
 
 .pm verse-start
+.if t
 Though the fairies meet by night
+.if-
+.if h
+<sc>Though</sc> the fairies meet by night
+.if-
   In the moonlit spaces,
 Often in the morning light
   You will see their traces;
@@ -450,15 +487,18 @@ Practising her tiny dance
 
 .pm new-page-break 024
 
-.pm chapter-break
-
-.h2
-THE GREEN LOCH
+.h2 nobreak
+<target=Loch>THE GREEN LOCH
 
 .pm section-break
 
 .pm verse-start
+.if t
 Far in the hills the Green Loch lies,
+.if-
+.if h
+<sc>Far</sc> in the hills the Green Loch lies,
+.if-
 Its constant emerald mocks at the skies;
 Though they be garmented grey or blue
 Never the Green Loch changes hue;
@@ -495,15 +535,18 @@ To tell the secret they never can hide.
 
 .pm new-page-break 026
 
-.pm chapter-break
-
-.h2
-THE SKYLARK
+.h2 nobreak
+<target=Skylark>THE SKYLARK
 
 .pm section-break
 
 .pm verse-start
+.if t
 Of all the birds the fairies love the skylark much the best;
+.if-
+.if h
+<sc>Of</sc> all the birds the fairies love the skylark much the best;
+.if-
 They come with little fairy gifts to seek his hidden nest.
 They praise his tiny slender feet and silken suit of brown,
 And with their gentle hands they smooth his feathers softly down.
@@ -524,15 +567,18 @@ And even fairies could not know a greater joy than this.
 
 .pm new-page-break 028
 
-.pm chapter-break
-
-.h2
-IN BOND STREET
+.h2 nobreak
+<target=Bond>IN BOND STREET
 
 .pm section-break
 
 .pm verse-start
+.if t
 Upon her little velvet hat
+.if-
+.if h
+<sc>Upon</sc> her little velvet hat
+.if-
   A silken tassel hung,
 And to the very end of that
   A tiny fairy clung.
@@ -558,15 +604,18 @@ And still he tumbled to and fro
 
 .pm new-page-break 029
 
-.pm chapter-break
-
-.h2
-TIMOTHY
+.h2 nobreak
+<target=Timothy>TIMOTHY
 
 .pm section-break
 
 .pm verse-start
+.if t
 My cat Timothy who has such lovely eyes
+.if-
+.if h
+<sc>My</sc> cat Timothy who has such lovely eyes
+.if-
 Is really not a cat at all; it’s only a disguise.
 A witch cast a spell on him a long time since
 And changed him to a pussy-cat; but once he was a Prince.
@@ -592,15 +641,18 @@ And take me on his foaming steed to reign in fairyland.
 
 .pm new-page-break 031
 
+.h2 nobreak
+<target=Lullaby>FAIRY LULLABY FOR A MORTAL
+
 .pm section-break
 
-.h2
-FAIRY LULLABY FOR A MORTAL
-
-.pm chapter-break
-
 .pm verse-start
+.if t
 Sleep, oh sleep, for the night is still;
+.if-
+.if h
+<sc>Sleep</sc>, oh sleep, for the night is still;
+.if-
 The friendly moon peers over the hill;
 Cradled soft on the bosom of night
 Smiling she scatters her wistful light
@@ -634,15 +686,18 @@ Will you not hush you, and smile, and sleep?
 
 .pm new-page-break 033
 
-.pm chapter-break
-
-.h2
-THE CANARY
+.h2 nobreak
+<target=Canary>THE CANARY
 
 .pm section-break
 
 .pm verse-start
+.if t
 He used to be a fairy once,
+.if-
+.if h
+<sc>He</sc> used to be a fairy once,
+.if-
   A little singing fairy;
 He would not work, he would not play,
 He only sat and sang all day—
@@ -672,15 +727,18 @@ And no one knows—excepting me—
 
 .pm new-page-break 035
 
-.pm chapter-break
-
-.h2
-RAINY MORNING
+.h2 nobreak
+<target=Rainy>RAINY MORNING
 
 .pm section-break
 
 .pm verse-start
+.if t
 As I was walking in the rain
+.if-
+.if h
+<sc>As</sc> I was walking in the rain
+.if-
 I met a fairy down a lane.
 We walked along the road together,
 I soon forgot about the weather.
@@ -708,15 +766,18 @@ And the sun shining on the clover.
 
 .pm new-page-break 037
 
-.pm chapter-break
-
-.h2
-THIS IS THE WAY THE FAIRIES SING
+.h2 nobreak
+<target=Way>THIS IS THE WAY THE FAIRIES SING
 
 .pm section-break
 
 .pm verse-start
+.if t
 This is the way the fairies sing:
+.if-
+.if h
+<sc>This</sc> is the way the fairies sing:
+.if-
 They all stand round in a shining ring
 On quiet nights when the moon is high,
 And lift their faces up to the sky.
@@ -748,15 +809,18 @@ To learn the way that the fairies dance.
 
 .pm new-page-break 039
 
-.pm chapter-break
-
-.h2
-THE FAIRY BALL
+.h2 nobreak
+<target=Ball>THE FAIRY BALL
 
 .pm section-break
 
 .pm verse-start
+.if t
 “I am asked to the ball to-night, to-night;
+.if-
+.if h
+“<sc>I am</sc> asked to the ball to-night, to-night;
+.if-
 What shall I wear, for I must look right?”
 “Search in the fields for a lady-smock;
 Where could you find you a prettier frock?”
@@ -776,15 +840,18 @@ That no one is frightened in Fairyland.”
 
 .pm new-page-break 040
 
-.pm chapter-break
-
-.h2
-USEFUL HINTS
+.h2 nobreak
+<target=Hints>USEFUL HINTS
 
 .pm section-break
 
 .pm verse-start
+.if t
 Fairy flannel is the skin of peaches,
+.if-
+.if h
+<sc>Fairy</sc> flannel is the skin of peaches,
+.if-
 Fairy brushes are the nuts of beeches,
 Velvet bulrushes are fairy pillows,
 Fairy muffs are made of pussy-willows.
@@ -794,15 +861,18 @@ Fairy muffs are made of pussy-willows.
 
 .pm new-page-break 041
 
-.pm chapter-break
-
-.h2
-THE FAIRY FLUTE
+.h2 nobreak
+<target=Flute>THE FAIRY FLUTE
 
 .pm section-break
 
 .pm verse-start
+.if t
 My brother has a little flute
+.if-
+.if h
+<sc>My</sc> brother has a little flute
+.if-
 Of gold and ivory,
 He found it on a summer night
 Within a hollow tree.
@@ -829,15 +899,18 @@ And comes from Fairyland.
 
 .pm new-page-break 043
 
-.pm chapter-break
-
-.h2
-THE APPLE-TREE
+.h2 nobreak
+<target=Tree>THE APPLE-TREE
 
 .pm section-break
 
 .pm verse-start
+.if t
 I stood beneath the apple-tree,
+.if-
+.if h
+<sc>I stood</sc> beneath the apple-tree,
+.if-
 The apples were so good to see;
 Very high above my head
 I saw them shining round and red.
@@ -852,15 +925,18 @@ Threw an apple down to me.
 
 .pm new-page-break 044
 
-.pm chapter-break
-
-.h2
-A STRANGE PAIR
+.h2 nobreak
+<target=Pair>A STRANGE PAIR
 
 .pm section-break
 
 .pm verse-start
+.if t
 The witch, the witch that lives in the wood
+.if-
+.if h
+<sc>The</sc> witch, the witch that lives in the wood
+.if-
 Is not very pretty and not very good;
 Her face is brown and her eyes are black,
 A fierce old pussy-cat sits on her back
@@ -893,15 +969,18 @@ When the witch and the goblin are out for a ride.
 
 .pm new-page-break 046
 
-.pm chapter-break
-
-.h2
-THE WILLOW PRINCESSES
+.h2 nobreak
+<target=Willow>THE WILLOW PRINCESSES
 
 .pm section-break
 
 .pm verse-start
+.if t
 The tall princesses in the willow tree
+.if-
+.if h
+<sc>The</sc> tall princesses in the willow tree
+.if-
 They move their lazy, lovely heads about,
 They wave their arms, their hair goes streaming out,
 Their rustling dresses shimmer like the sea.
@@ -916,15 +995,18 @@ To perch upon their pretty hands and sing.
 
 .pm new-page-break 047
 
-.pm chapter-break
-
-.h2
-A VISITOR
+.h2 nobreak
+<target=Visitor>A VISITOR
 
 .pm section-break
 
 .pm verse-start
+.if t
 I heard a little tiny noise behind the cupboard door
+.if-
+.if h
+<sc>I heard</sc> a little tiny noise behind the cupboard door
+.if-
 And something soft and small and quick flashed right across the floor.
 The day had very nearly gone and I could hardly see;
 I do so wish that it would come again to visit me;
@@ -936,15 +1018,18 @@ The whole day long I’ve looked and looked and looked about the house,
 
 .pm new-page-break 048
 
-.pm chapter-break
-
-.h2
-THE LITTLE PRINCE
+.h2 nobreak
+<target=Prince>THE LITTLE PRINCE
 
 .pm section-break
 
 .pm verse-start
+.if t
 My mother is a queen and my father is a king
+.if-
+.if h
+<sc>My</sc> mother is a queen and my father is a king
+.if-
 And I have a garden with pretty birds that sing,
 Where pansies and marigolds and hollyhocks grow
 And four little apple-trees planted in a row.
@@ -959,15 +1044,18 @@ And a little brown monkey on a long gold chain.
 
 .pm new-page-break 049
 
-.pm chapter-break
-
-.h2
-TEMPER
+.h2 nobreak
+<target=Temper>TEMPER
 
 .pm section-break
 
 .pm verse-start
+.if t
 “Blow out the light,” they said, they said
+.if-
+.if h
+“<sc>Blow</sc> out the light,” they said, they said
+.if-
   (She’d got to the very last page);
 “Blow out the light,” they said, they said,
 “It’s dreadfully wicked to read in bed”;
@@ -994,15 +1082,18 @@ She’d get into trouble without a doubt,
 
 .pm new-page-break 051
 
-.pm chapter-break
-
-.h2
-BEST
+.h2 nobreak
+<target=Best>BEST
 
 .pm section-break
 
 .pm verse-start
+.if t
 I like to wear my party frock
+.if-
+.if h
+<sc>I like</sc> to wear my party frock
+.if-
 That Auntie bought in town,
 My patent shoes with shiny toes,
 My Sunday hat with little bows,
@@ -1023,15 +1114,18 @@ Who <i>can</i> this lovely lady be?”
 
 .pm new-page-break 052
 
-.pm chapter-break
-
-.h2
-WHAT I SHALL BE
+.h2 nobreak
+<target=Shall>WHAT I SHALL BE
 
 .pm section-break
 
 .pm verse-start
+.if t
 I shall be a lady
+.if-
+.if h
+<sc>I shall</sc> be a lady
+.if-
 As pretty as you please,
 And I shall have a garden
 With lots of flowers and trees,
@@ -1045,15 +1139,18 @@ And a nursery full of cots.
 
 .pm new-page-break 053
 
-.pm chapter-break
-
-.h2
-SOMETIMES
+.h2 nobreak
+<target=Sometimes>SOMETIMES
 
 .pm section-break
 
 .pm verse-start
+.if t
 Some days are fairy days. The minute that you wake
+.if-
+.if h
+<sc>Some</sc> days are fairy days. The minute that you wake
+.if-
 You have a magic feeling that you never could mistake;
 You may not see the fairies, but you know that they’re about,
 And any single minute they might all come popping out;
@@ -1069,7 +1166,7 @@ You look into the garden, and through the misty grey
 You see the trees all waiting in a breathless kind of way.
 All the stars are smiling; they know that very soon
 The fairies will come singing from the land behind the moon.
-If only you could keep awake when Nurse puts out the light ...
+If only you could keep awake when Nurse puts out the light...
 <i>Anything</i> might happen on a truly fairy night.
 .pm verse-end
 
@@ -1077,15 +1174,18 @@ If only you could keep awake when Nurse puts out the light ...
 
 .pm new-page-break 055
 
-.pm chapter-break
-
-.h2
-PREPARE!
+.h2 nobreak
+<target=Prepare>PREPARE!
 
 .pm section-break
 
 .pm verse-start
+.if t
 Bunny, bunny, smooth your fur,
+.if-
+.if h
+<sc>Bunny</sc>, bunny, smooth your fur,
+.if-
   Wash your little face;
 Dormouse, wake you up and stir
   Lest you lose your place.
@@ -1111,15 +1211,18 @@ The Queen is coming by.
 
 .pm new-page-break 056
 
-.pm chapter-break
-
-.h2
-A VOYAGE
+.h2 nobreak
+<target=Voyage>A VOYAGE
 
 .pm section-break
 
 .pm verse-start
+.if t
 They took me out a-sailing—
+.if-
+.if h
+<sc>They</sc> took me out a-sailing—
+.if-
 The boat was made of glass;
 We sailed upon the little clouds,
 The stars came out in shining crowds
@@ -1150,7 +1253,7 @@ Beyond the flight of bird.
 The stars went out, I looked about,
 I saw the dewdrops gleam
 Among the cobwebs on the lawn
-As we came home at break of dawn....
+As we came home at break of dawn...
 It was not all a dream.
 .pm verse-end
 
@@ -1158,15 +1261,18 @@ It was not all a dream.
 
 .pm new-page-break 058
 
-.pm chapter-break
-
-.h2
-A COMPLAINT
+.h2 nobreak
+<target=Complaint>A COMPLAINT
 
 .pm section-break
 
 .pm verse-start
+.if t
 You’ve stolen all our mushrooms!
+.if-
+.if h
+<sc>You’ve</sc> stolen all our mushrooms!
+.if-
 When friends come in to tea
 In Fairyland it is the rule
 To offer them a satin stool;
@@ -1196,15 +1302,18 @@ So you had best beware.
 
 .pm new-page-break 060
 
-.pm chapter-break
-
-.h2
-THE FAIRIES GIVE THANKS
+.h2 nobreak
+<target=Thanks>THE FAIRIES GIVE THANKS
 
 .pm section-break
 
 .pm verse-start
+.if t
 To all kind folk who make delightful gardens
+.if-
+.if h
+<sc>To</sc> all kind folk who make delightful gardens
+.if-
         Where we may live,
 Enjoying days and nights of busy leisure
 Amid devices fashioned for our pleasure,
@@ -1228,11 +1337,14 @@ Since they from grateful hearts can only sing you
 
 .pm new-page-break 062
 
-.pm chapter-break
-
 .fs 75%
 .nf b
+.if t
 The author’s best thanks are due to the Editor and
+.if-
+.if h
+<sc>The</sc> author’s best thanks are due to the Editor and
+.if-
 Proprietors of <i>Punch</i>, through whose courtesy she
 is able to include in this collection a number of
 verses which have already appeared in that paper.
@@ -1246,22 +1358,16 @@ PRINTED BY MORRISON AND GIBB LTD., EDINBURGH
 
 .pb
 
+.if h
 .dv class=tnbox
 .ce
-.if h
 <b>Transcriber’s Notes</b>
-.if-
-.if t
-Transcriber’s Notes
-.if-
 .ul
 .it A stanza break was inserted at the start of page #25# before "But ere the morning has well begun"
 .it Missing or obscured punctuation was silently corrected.
 .it Typographical errors were silently corrected.
 .it Inconsistent spelling and hyphenation were made consistent only when a\
 predominant form was found in this book.
-.if t
-.it Text in italics is enclosed by underscores (<i>italics</i>).
-.if-
 .ul-
 .dv-
+.if-
